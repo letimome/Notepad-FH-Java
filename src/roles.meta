@@ -1,0 +1,90 @@
+{
+	"features" : [
+		"Notepad",
+		"Cut",
+		"Finder",
+		"Undo",
+		"Notepad",
+		"Cut",
+		"Finder",
+		"Undo"
+	],
+	"roles": {
+		"update": {
+			"BankAccount": "update__wrappee__BankAccount",
+			"DailyLimit": "update"
+		},
+		"undoUpdate": {
+			"BankAccount": "undoUpdate__wrappee__BankAccount",
+			"DailyLimit": "undoUpdate"
+		},
+		"nextDay": {
+			"BankAccount": "nextDay__wrappee__BankAccount",
+			"DailyLimit": "nextDay__wrappee__DailyLimit",
+			"Interest": "nextDay"
+		},
+		"nextYear": {
+			"DailyLimit": "nextYear__wrappee__DailyLimit",
+			"Interest": "nextYear"
+		},
+		"execute": {
+			"base": "execute__wrappee__base",
+			"IO": "execute"
+		},
+		"hook482": {
+			"base": "hook482__wrappee__base",
+			"IO": "hook482"
+		},
+		"hook447": {
+			"IO": "hook447__wrappee__IO",
+			"Derivative_IO_SynchronizedIO": "hook447"
+		},
+		"hook448": {
+			"IO": "hook448__wrappee__IO",
+			"Derivative_IO_SynchronizedIO": "hook448"
+		},
+		"getBonusPoints": {
+			"BonusPoints": "getBonusPoints"
+		},
+		"validStudent": {
+			"BonusPoints": "validStudent__wrappee__BonusPoints",
+			"BackOut": "validStudent"
+		},
+		"run": {
+			"TestProg": "run__wrappee__TestProg",
+			"Number": "run__wrappee__Number",
+			"Connected": "run__wrappee__Connected",
+			"Cycle": "run__wrappee__Cycle",
+			"MSTKruskal": "run"
+		},
+		"display": {
+			"TestProg": "display__wrappee__TestProg",
+			"Number": "display__wrappee__Number",
+			"Connected": "display__wrappee__Connected",
+			"Cycle": "display__wrappee__Cycle",
+			"MSTKruskal": "display__wrappee__MSTKruskal",
+			"DFS": "display__wrappee__DFS",
+			"WeightedWithEdges": "display"
+		},
+		"VertexConstructor": {
+			"MSTKruskal": "VertexConstructor__wrappee__MSTKruskal",
+			"DFS": "VertexConstructor"
+		},
+		"adjustAdorns": {
+			"DFS": "adjustAdorns__wrappee__DFS",
+			"WeightedWithEdges": "adjustAdorns"
+		},
+		"setWeight": {
+			"WeightedWithEdges": "setWeight"
+		},
+		"getWeight": {
+			"WeightedWithEdges": "getWeight"
+		},
+		"print": {
+			"Hello": "print__wrappee__Hello",
+			"Beautiful": "print__wrappee__Beautiful",
+			"World": "print"
+		}
+	}
+
+}
