@@ -10,80 +10,277 @@
 		"Undo"
 	],
 	"roles": {
-		"update": {
-			"BankAccount": "update__wrappee__BankAccount",
-			"DailyLimit": "update"
+		"loadTabs": {
+			"DB": "loadTabs__wrappee__DB",
+			"OODB": "loadTabs__wrappee__Print",
+			"Print": "loadTabs__wrappee__Print",
+			"eMail": "loadTabs__wrappee__eMail",
+			"SMSAlerts": "loadTabs__wrappee__SocialNetworks",
+			"SocialNetworks": "loadTabs__wrappee__SocialNetworks",
+			"Facebook": "loadTabs__wrappee__Facebook",
+			"Twitter": "loadTabs__wrappee__Twitter",
+			"Web": "loadTabs"
 		},
-		"undoUpdate": {
-			"BankAccount": "undoUpdate__wrappee__BankAccount",
-			"DailyLimit": "undoUpdate"
+		"loadTabMyAccount": {
+			"DB": "loadTabMyAccount__wrappee__DB",
+			"OODB": "loadTabMyAccount__wrappee__Print",
+			"Print": "loadTabMyAccount__wrappee__Print",
+			"eMail": "loadTabMyAccount__wrappee__eMail",
+			"SMSAlerts": "loadTabMyAccount__wrappee__SocialNetworks",
+			"SocialNetworks": "loadTabMyAccount__wrappee__SocialNetworks",
+			"Facebook": "loadTabMyAccount__wrappee__Facebook",
+			"Twitter": "loadTabMyAccount__wrappee__Twitter",
+			"Web": "loadTabMyAccount"
 		},
-		"nextDay": {
-			"BankAccount": "nextDay__wrappee__BankAccount",
-			"DailyLimit": "nextDay__wrappee__DailyLimit",
-			"Interest": "nextDay"
+		"loadHelpHTML": {
+			"OODB": "loadHelpHTML__wrappee__OODB",
+			"ManageProfiles": "loadHelpHTML__wrappee__ManageProfiles",
+			"ManageAcademicInfo": "loadHelpHTML__wrappee__ManageAcademicInfo",
+			"ManageGroups": "loadHelpHTML__wrappee__ManageGroups",
+			"ManageNotices": "loadHelpHTML__wrappee__DivorcedParents",
+			"DivorcedParents": "loadHelpHTML__wrappee__DivorcedParents",
+			"AccessToTeachers": "loadHelpHTML__wrappee__AccessToTeachers",
+			"SocialNetworks": "loadHelpHTML__wrappee__Twitter",
+			"Twitter": "loadHelpHTML__wrappee__Twitter",
+			"Web": "loadHelpHTML"
 		},
-		"nextYear": {
-			"DailyLimit": "nextYear__wrappee__DailyLimit",
-			"Interest": "nextYear"
+		"completeParentsList": {
+			"SendNotices": "completeParentsList__wrappee__SendNotices",
+			"Print": "completeParentsList__wrappee__Print",
+			"eMail": "completeParentsList__wrappee__eMail",
+			"SMSAlerts": "completeParentsList"
 		},
-		"execute": {
-			"base": "execute__wrappee__base",
-			"IO": "execute"
+		"parentsExtraInfo": {
+			"SendNotices": "parentsExtraInfo__wrappee__SendNotices",
+			"Print": "parentsExtraInfo__wrappee__Print",
+			"eMail": "parentsExtraInfo__wrappee__eMail",
+			"SMSAlerts": "parentsExtraInfo"
 		},
-		"hook482": {
-			"base": "hook482__wrappee__base",
-			"IO": "hook482"
+		"showParent": {
+			"SendNotices": "showParent__wrappee__SendNotices",
+			"Print": "showParent__wrappee__Print",
+			"eMail": "showParent__wrappee__eMail",
+			"SMSAlerts": "showParent"
 		},
-		"hook447": {
-			"IO": "hook447__wrappee__IO",
-			"Derivative_IO_SynchronizedIO": "hook447"
+		"editParentWindow": {
+			"SendNotices": "editParentWindow__wrappee__SendNotices",
+			"Print": "editParentWindow__wrappee__Print",
+			"eMail": "editParentWindow__wrappee__eMail",
+			"SMSAlerts": "editParentWindow"
 		},
-		"hook448": {
-			"IO": "hook448__wrappee__IO",
-			"Derivative_IO_SynchronizedIO": "hook448"
+		"saveEditedParentExtra": {
+			"SendNotices": "saveEditedParentExtra__wrappee__SendNotices",
+			"Print": "saveEditedParentExtra__wrappee__Print",
+			"eMail": "saveEditedParentExtra__wrappee__eMail",
+			"SMSAlerts": "saveEditedParentExtra"
 		},
-		"getBonusPoints": {
-			"BonusPoints": "getBonusPoints"
+		"saveParentsExtraInfo": {
+			"SendNotices": "saveParentsExtraInfo__wrappee__SendNotices",
+			"Print": "saveParentsExtraInfo__wrappee__Print",
+			"eMail": "saveParentsExtraInfo__wrappee__eMail",
+			"SMSAlerts": "saveParentsExtraInfo"
 		},
-		"validStudent": {
-			"BonusPoints": "validStudent__wrappee__BonusPoints",
-			"BackOut": "validStudent"
+		"exportInformation": {
+			"Print": "exportInformation__wrappee__Print",
+			"eMail": "exportInformation__wrappee__eMail",
+			"SMSAlerts": "exportInformation__wrappee__SMSAlerts",
+			"DivorcedParents": "exportInformation"
 		},
-		"run": {
-			"TestProg": "run__wrappee__TestProg",
-			"Number": "run__wrappee__Number",
-			"Connected": "run__wrappee__Connected",
-			"Cycle": "run__wrappee__Cycle",
-			"MSTKruskal": "run"
+		"importInformation": {
+			"Print": "importInformation__wrappee__Print",
+			"eMail": "importInformation__wrappee__eMail",
+			"SMSAlerts": "importInformation__wrappee__SMSAlerts",
+			"DivorcedParents": "importInformation"
 		},
-		"display": {
-			"TestProg": "display__wrappee__TestProg",
-			"Number": "display__wrappee__Number",
-			"Connected": "display__wrappee__Connected",
-			"Cycle": "display__wrappee__Cycle",
-			"MSTKruskal": "display__wrappee__MSTKruskal",
-			"DFS": "display__wrappee__DFS",
-			"WeightedWithEdges": "display"
+		"getManager": {
+			"Print": "getManager__wrappee__Print",
+			"eMail": "getManager__wrappee__eMail",
+			"SMSAlerts": "getManager__wrappee__SocialNetworks",
+			"SocialNetworks": "getManager__wrappee__SocialNetworks",
+			"Facebook": "getManager__wrappee__Facebook",
+			"Twitter": "getManager__wrappee__Twitter",
+			"Web": "getManager"
 		},
-		"VertexConstructor": {
-			"MSTKruskal": "VertexConstructor__wrappee__MSTKruskal",
-			"DFS": "VertexConstructor"
+		"loadParentsPane": {
+			"Print": "loadParentsPane__wrappee__Print",
+			"eMail": "loadParentsPane__wrappee__eMail",
+			"SMSAlerts": "loadParentsPane"
 		},
-		"adjustAdorns": {
-			"DFS": "adjustAdorns__wrappee__DFS",
-			"WeightedWithEdges": "adjustAdorns"
+		"validateExtra": {
+			"Print": "validateExtra__wrappee__Print",
+			"eMail": "validateExtra__wrappee__eMail",
+			"SMSAlerts": "validateExtra"
 		},
-		"setWeight": {
-			"WeightedWithEdges": "setWeight"
+		"send": {
+			"Print": "send__wrappee__Print",
+			"eMail": "send__wrappee__eMail",
+			"SMSAlerts": "send"
 		},
-		"getWeight": {
-			"WeightedWithEdges": "getWeight"
+		"getRecipients": {
+			"DivorcedParents": "getRecipients"
+		},
+		"completeFamiliesList": {
+			"DivorcedParents": "completeFamiliesList"
+		},
+		"showFamily": {
+			"SMSAlerts": "showFamily__wrappee__SMSAlerts",
+			"DivorcedParents": "showFamily"
+		},
+		"familiesExtraInfo": {
+			"SMSAlerts": "familiesExtraInfo__wrappee__SMSAlerts",
+			"DivorcedParents": "familiesExtraInfo"
+		},
+		"loadEditFamilyPane": {
+			"SMSAlerts": "loadEditFamilyPane__wrappee__SMSAlerts",
+			"DivorcedParents": "loadEditFamilyPane"
+		},
+		"saveFamilyEditExtraInfo": {
+			"DivorcedParents": "saveFamilyEditExtraInfo"
+		},
+		"loadFamilyPane": {
+			"SMSAlerts": "loadFamilyPane__wrappee__SMSAlerts",
+			"DivorcedParents": "loadFamilyPane"
+		},
+		"familyOutcomeExtra": {
+			"DivorcedParents": "familyOutcomeExtra"
+		},
+		"loadExtraButtons": {
+			"DivorcedParents": "loadExtraButtons__wrappee__DivorcedParents",
+			"AccessToTeachers": "loadExtraButtons__wrappee__AccessToTeachers",
+			"SocialNetworks": "loadExtraButtons__wrappee__Twitter",
+			"Twitter": "loadExtraButtons__wrappee__Twitter",
+			"Web": "loadExtraButtons"
+		},
+		"exit": {
+			"MenuBar": "exit__wrappee__MenuBar",
+			"File": "exit",
+			"FullStyled": "exit__wrappee__MenuBar"
+		},
+		"buildFileMenu": {
+			"MenuBar": "buildFileMenu__wrappee__MenuBar",
+			"File": "buildFileMenu",
+			"Find": "buildFileMenu__wrappee__Find",
+			"Print": "buildFileMenu__wrappee__MenuBar",
+			"FullStyled": "buildFileMenu__wrappee__MenuBar"
+		},
+		"buildToolBar": {
+			"MenuBar": "buildToolBar__wrappee__MenuBar",
+			"File": "buildToolBar__wrappee__File",
+			"Undo": "buildToolBar__wrappee__Undo",
+			"Clipboard": "buildToolBar__wrappee__Clipboard",
+			"Find": "buildToolBar",
+			"Print": "buildToolBar__wrappee__FullStyled",
+			"FullStyled": "buildToolBar__wrappee__MenuBar",
+			"FormatStyled": "buildToolBar__wrappee__MenuBar"
+		},
+		"buildEditMenu": {
+			"File": "buildEditMenu__wrappee__File",
+			"Undo": "buildEditMenu__wrappee__Undo",
+			"Clipboard": "buildEditMenu__wrappee__Clipboard",
+			"Find": "buildEditMenu",
+			"FullStyled": "buildEditMenu__wrappee__File"
+		},
+		"about": {
+			"FullStyled": "about"
+		},
+		"newFile": {
+			"FullStyled": "newFile"
+		},
+		"open": {
+			"FullStyled": "open"
+		},
+		"save": {
+			"FullStyled": "save"
+		},
+		"saveAs": {
+			"FullStyled": "saveAs"
+		},
+		"_save": {
+			"FullStyled": "_save"
+		},
+		"_open": {
+			"FullStyled": "_open"
+		},
+		"cut": {
+			"FullStyled": "cut"
+		},
+		"copy": {
+			"FullStyled": "copy"
+		},
+		"paste": {
+			"FullStyled": "paste"
+		},
+		"selectAll": {
+			"FullStyled": "selectAll"
+		},
+		"find": {
+			"FullStyled": "find"
+		},
+		"findNext": {
+			"FullStyled": "findNext"
+		},
+		"selectFound": {
+			"FullStyled": "selectFound"
 		},
 		"print": {
-			"Hello": "print__wrappee__Hello",
-			"Beautiful": "print__wrappee__Beautiful",
-			"World": "print"
+			"FullStyled": "print"
+		},
+		"buildMenuBar": {
+			"FullStyled": "buildMenuBar"
+		},
+		"buildFormatMenu": {
+			"FullStyled": "buildFormatMenu"
+		},
+		"buildHelpMenu": {
+			"FullStyled": "buildHelpMenu"
+		},
+		"main": {
+			"FullStyled": "main"
+		},
+		"accept": {
+			"FullStyled": "accept"
+		},
+		"getExtension": {
+			"FullStyled": "getExtension"
+		},
+		"addExtension": {
+			"FullStyled": "addExtension"
+		},
+		"getDescription": {
+			"FullStyled": "getDescription"
+		},
+		"setDescription": {
+			"FullStyled": "setDescription"
+		},
+		"setExtensionListInDescription": {
+			"FullStyled": "setExtensionListInDescription"
+		},
+		"isExtensionListInDescription": {
+			"FullStyled": "isExtensionListInDescription"
+		},
+		"actionPerformed": {
+			"FullStyled": "actionPerformed"
+		},
+		"update": {
+			"FullStyled": "update"
+		},
+		"printComponent": {
+			"FullStyled": "printComponent"
+		},
+		"disableDoubleBuffering": {
+			"FullStyled": "disableDoubleBuffering"
+		},
+		"enableDoubleBuffering": {
+			"FullStyled": "enableDoubleBuffering"
+		},
+		"setStyle": {
+			"FormatStyled": "setStyle"
+		},
+		"getTextComponent": {
+			"TextStyled": "getTextComponent"
+		},
+		"getTextPane": {
+			"TextStyled": "getTextPane"
 		}
 	}
 

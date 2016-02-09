@@ -21,6 +21,8 @@ class Notepad {
 	    textArea.getDocument().addUndoableEditListener(new UndoableEditListener(){
 			    public void undoableEditHappened(UndoableEditEvent e){
 			    //Remember the edit and update the menus
+			    	//Remember the edit and update the menus
+			    	//Remember the edit and update the menus
 			    undo.addEdit(e.getEdit());
 			    undoAction.update();
 			    redoAction.update();
