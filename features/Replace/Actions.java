@@ -23,9 +23,6 @@ class Actions{
             JOptionPane.showMessageDialog(null,"Search canceled","Abourted",JOptionPane.WARNING_MESSAGE);
         }
     }
-    public void replace(target){
-        n.getTextArea().select(n.getTextArea().getText().indexOf(findword,(int)n.getTextArea().getText().indexOf(findword)+1),
-        n.getTextArea().getText().indexOf(findword,(int)n.getTextArea().getText().indexOf(findword)+1));
-    }
-
+    public void replaceWord(){}
+//asdadada
 }
