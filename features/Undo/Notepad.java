@@ -16,6 +16,8 @@ class Notepad {
 	    toolBar.addSeparator();
 	    toolBar.add(undoAction);
 	    toolBar.add(redoAction);
+         
+         ///dddd
 	    toolBar.addSeparator();
 
 	    textArea.getDocument().addUndoableEditListener(new UndoableEditListener(){
