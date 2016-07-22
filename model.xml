@@ -4,7 +4,9 @@
 			<and mandatory="true" name="Notepad">
 				<feature name="Cut"/>
 				<and name="Finder">
-					<feature name="Replace"/>
+					<and name="Replace">
+						<feature name="NewLayer1"/>
+					</and>
 				</and>
 				<feature name="Undo"/>
 			</and>
