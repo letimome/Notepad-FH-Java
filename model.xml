@@ -11,8 +11,10 @@
 				<feature name="Undo"/>
 			</and>
 		</struct>
+
 		<constraints/>
 		<calculations Auto="true" Constraints="true" Features="true" Redundant="true"/>
+
 		<comments/>
 		<featureOrder userDefined="false"/>
 	</featureModel>
