@@ -31,6 +31,7 @@ class UndoAction extends AbstractAction {
         }
         else {
             setEnabled( false );
+            
             putValue( Action.NAME, "Undo" );
         }
     }
